@@ -8,6 +8,14 @@
     <string name="btn_reset">reset</string>
     <string name="hello_first_fragment" />
     <string name="previous" />
-
     <dimen name="fab_margin" />
+    <string name="input">input rmb</string>
+    <string name="output">output</string>
+    <string name="btn_dollar">dollar</string>
+    <string name="btn_euro">euro</string>
+    <string name="btn_won">won</string>
+    <string name="btn_config">config</string>
+    <string name="btn_save">save</string>
+    <string name="menu_setting">setting</string>
+
 </resources>
