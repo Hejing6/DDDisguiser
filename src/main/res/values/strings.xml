@@ -17,5 +17,6 @@
     <string name="btn_config">config</string>
     <string name="btn_save">save</string>
     <string name="menu_setting">setting</string>
+    <string name="menu_item">item</string>
 
 </resources>

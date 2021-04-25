@@ -36,6 +36,7 @@ public class ConfigActivity extends AppCompatActivity {
         dollarEditor.setText(String.valueOf(dollar));
         euroEditor.setText(String.valueOf(euro));
         wonEditor.setText(String.valueOf(won));
+
     }
 
     public void save(View btn){
@@ -44,6 +45,7 @@ public class ConfigActivity extends AppCompatActivity {
         float neweuro = Float.parseFloat(euroEditor.getText().toString());
         float newwon = Float.parseFloat(wonEditor.getText().toString());
         Log.i(TAG,"save:00000");
+
         //将输入的新汇率带回计算页面
         Intent intent = getIntent();
         Bundle bdl = new Bundle();
