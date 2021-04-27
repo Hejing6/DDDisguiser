@@ -161,12 +161,12 @@ public class RateActivity extends AppCompatActivity implements Runnable{
         //线程中完成的任务
         URL url = null;
         try{
-            url = new URL("www.usd-cny.com/bankofchina.htm");
+            url = new URL("https://www.usd-cny.com/");
             HttpURLConnection http = (HttpURLConnection) url.openConnection();
             InputStream in = http.getInputStream();
 
             String html = inputStream2String(in);
-            Log.i(TAG,"run:html=" + html);
+            Log.i(TAG,"run: html=" + html);
         }catch(MalformedURLException e){
             e.printStackTrace();
 
