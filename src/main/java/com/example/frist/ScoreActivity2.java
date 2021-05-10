@@ -9,31 +9,60 @@ import androidx.appcompat.app.AppCompatActivity;
 public class ScoreActivity2 extends AppCompatActivity {
 
     TextView textView4;
-    int score=0;
+    TextView textView5;
+    int scorea=0;
+    int scoreb=0;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_score);
-        textView4=findViewById(R.id.textView4);
+        setContentView(R.layout.activity_score2);
+        textView4=findViewById(R.id.texta);
+        textView5=findViewById(R.id.btn);
     }
-    private void show(){
-        textView4.setText(String.valueOf(score));
+
+
+    private void showa(){
+        textView4.setText(String.valueOf(scorea));
     }
-    public void button4(View v){
-        score+=1;
-        show();
+    public void scoreOnea(View v){
+        scorea+=1;
+        showa();
     }
-    public void button7(View v){
-        score+=2;
-        show();
+    public void scoreTwoa(View v){
+        scorea+=2;
+        showa();
     }
-    public void button8(View v){
-        score+=3;
-        show();
+    public void scoreThreea(View v){
+        scorea+=3;
+        showa();
     }
-    public void button3(View v){
-        score=0;
-        show();
+
+    private void showb(){
+        textView5.setText(String.valueOf(scoreb));
     }
+    public void scoreOneb(View v){
+        scoreb+=1;
+        showb();
+    }
+    public void scoreTwob(View v){
+        scoreb+=2;
+        showb();
+    }
+    public void scoreThreeb(View v){
+        scoreb+=3;
+        showb();
+    }
+    public void btnReset(View v) {
+        scorea = 0;
+        scoreb=0;
+        showa();
+        showb();
+
+    }
+
+
+
+
 }

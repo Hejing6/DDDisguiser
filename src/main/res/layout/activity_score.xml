@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:textSize="50sp"
-            android:text="@string/teamname" />
+            android:text="@string/teamName_a" />
 
         <TextView
             android:id="@+id/textView4"
@@ -43,20 +43,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:onClick="button4"
+            android:onClick="scoreOne"
             android:text="@string/btn1_label" />
 
         <Button
             android:id="@+id/button7"
             android:layout_marginTop="24dp"
-            android:onClick="button7"
+            android:onClick="scoreTwo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/btn2_label" />
 
         <Button
             android:layout_marginTop="24dp"
-            android:onClick="button8"
+            android:onClick="scoreThree"
             android:id="@+id/button8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -66,7 +66,7 @@
 
     <Button
         android:id="@+id/button3"
-        android:onClick="button3"
+        android:onClick="btnReset"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_marginBottom="92dp"

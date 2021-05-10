@@ -35,36 +35,43 @@
                 android:id="@+id/texta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:layout_marginBottom="24dp"
                 android:gravity="center"
                 android:text="@string/zero"
                 android:textSize="55sp"
                 android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/btn_a1"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:onClick="scoreOnea"
-                android:text="@string/btn1_label" />
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/btn_a2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:onClick="scoreTwoa"
-                android:text="@string/btn2_label" />
+                <Button
+                    android:id="@+id/btn_a1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:onClick="scoreOnea"
+                    android:text="@string/btn1_label"
+                    android:layout_weight="1"/>
 
-            <Button
-                android:id="@+id/btn_a3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:onClick="scoreThreea"
-                android:text="@string/btn3_label" />
+                <Button
+                    android:id="@+id/btn_a2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:onClick="scoreTwoa"
+                    android:text="@string/btn2_label"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/btn_a3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:onClick="scoreThreea"
+                    android:text="@string/btn3_label"
+                    android:layout_weight="1"/>
+            </LinearLayout>
 
         </LinearLayout>
 
@@ -97,36 +104,43 @@
                 android:id="@+id/btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:layout_marginBottom="24dp"
                 android:gravity="center"
                 android:text="@string/zero"
                 android:textSize="55sp"
                 android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/btn_b1"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:onClick="scoreOneb"
-                android:text="@string/btn1_label" />
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/btn_b2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:onClick="scoreTwob"
-                android:text="@string/btn2_label" />
+                <Button
+                    android:id="@+id/btn_b1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:onClick="scoreOneb"
+                    android:text="@string/btn1_label"
+                    android:layout_weight="1"/>
 
-            <Button
-                android:id="@+id/btn_b3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:onClick="scoreThreeb"
-                android:text="@string/btn3_label" />
+                <Button
+                    android:id="@+id/btn_b2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:onClick="scoreTwob"
+                    android:text="@string/btn2_label"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/btn_b3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:onClick="scoreThreeb"
+                    android:text="@string/btn3_label"
+                    android:layout_weight="1"/>
+            </LinearLayout>
 
         </LinearLayout>
     </LinearLayout>
